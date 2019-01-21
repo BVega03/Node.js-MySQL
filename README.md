@@ -1,98 +1,81 @@
 # Node.js-MySQL
 bamazon
 
-The app will take in orders from customers and deplete stock from the store's inventory. As a bonus task, you can program your app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
-
+The app will take in orders from customers and deplete stock from the store's inventory. The app can also be programmed to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
 
 
 ## Set Up
-  Make sure you save and require the MySQL and Inquirer npm packages in your homework files--your app will need them for data input and storage.
+Save and require the MySQL and Inquirer npm packages in files-- app will need them for data input and storage.
 
-  Clone repository. ```git clone``` https://github.com/BVega03/liri-node-app
+  Clone repository. ```git clone``` https://bvega03.github.io/Node.js-MySQL/
 
 ## Getting Started
-Open the terminal while in the liri.js and make it so the liri.js can take in one of the following commands:
+Open 
 
-- concert-this
+- bamazon.js
 
-- spotify-this-song
+- 
 
-- movie-this
+- 
 
-- do-what-it-says
+- 
 
 What Each Command Should Do
 
-1. node liri.js concert-this <artist/band name here>
+1. 
 
-This will search the Bands in Town Artist Events API ("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp") for an artist and render the following information about each event to the terminal:
+This will search the :
 
-- Name of the venue
+- 
 
-- Venue location
+- 
 
-- Date of the Event (use moment to format this as "MM/DD/YYYY")
+- 
 
-2. node liri.js spotify-this-song '<song name here>'
+2. 
 
-This will show the following information about the song in your terminal/bash window
+This will show the following information about the ID in your terminal/bash window
 
-- Artist(s)
+- 
 
-- The song's name
+- 
 
-- A preview link of the song from Spotify
+- 
 
-- The album that the song is from
+- 
 
-If no song is provided then your program will default to "The Sign" by Ace of Base.
 
-You will utilize the node-spotify-api package in order to retrieve song information from the Spotify API.
+The :
 
-The Spotify API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a client id and client secret:
+ - Step One:
 
- - Step One: Visit https://developer.spotify.com/my-applications/#!/
+ - Step Two: 
 
- - Step Two: Either login to your existing Spotify account or create a new one (a free account is fine) and log in.
+ - Step Three: 
 
- - Step Three: Once logged in, navigate to https://developer.spotify.com/my-applications/#!/applications/create to register a new application to be used with the Spotify API. You can fill in whatever you'd like for these fields. When finished, click the "complete" button.
+ - Step Four: 
 
- - Step Four: On the next screen, scroll down to where you see your client id and client secret. Copy these values down somewhere, you'll need them to use the Spotify API and the node-spotify-api package.
-
-3. node liri.js movie-this '<movie name here>'
+3. 
 
 This will output the following information to your terminal/bash window:
 
   * Title of the movie.
   * Year the movie came out.
   * IMDB Rating of the movie.
-  * Rotten Tomatoes Rating of the movie.
-  * Country where the movie was produced.
-  * Language of the movie.
-  * Plot of the movie.
-  * Actors in the movie.
-If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
-You'll use the axios package to retrieve data from the OMDB API. Like all of the in-class activities, the OMDB API requires an API key. You may use trilogy.
+4. 
 
-4. node liri.js do-what-it-says
-
-Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
-
-It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
-
-Edit the text in random.txt to test out the feature for movie-this and concert-this.
 
 ## Built With
+- MySQL
+- Node
 - JavaScript
-- AJAX
-- Bands in Town Artist Events API
-- Spotify API
-- OMDb API
+- Schema
 
 ## Issues/ Future Features
-- Remembering homework due dates
-- AJAX calls and connecting the APIs to return the required information
+- Getting the data to populated to MySQL
+- Connecting the js. files to the server
+- Will continue to work on the connection and understand the syntax
 
 ## Author
 - Ben Vega
