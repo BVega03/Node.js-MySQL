@@ -7,16 +7,20 @@ The app will take in orders from customers and deplete stock from the store's in
 ## Set Up
 Save and require the MySQL and Inquirer npm packages in files-- app will need them for data input and storage.
 
-  Clone repository. ```git clone``` https://bvega03.github.io/Node.js-MySQL/
+  Clone repository. ```git clone``` https://github.com/BVega03/Node.js-MySQL.git
 
 ## Getting Started
-Open 
 
-- bamazon.js
+Click link ```github link``` https://bvega03.github.io/Node.js-MySQL/
 
-- 
+Run the application to display all of the items available for sale. This will include ids, names, and prices of products for sale.
 
-- 
+The app will prompt users with two messages:
+
+**1. "What is the ID of the product you would like to buy?"**
+
+**2. "How many Products would you like to buy?"**
+
 
 What Each Search Should Do
 
@@ -59,7 +63,7 @@ Format: ![Alt Text](url)
 - Schema
 
 ## Issues/ Future Features
-- Getting the data to populated to MySQL
+- Getting the data to populate to MySQL
 - Connecting the js. files to the server
 - Will continue to work on the connection and understand the syntax
 
