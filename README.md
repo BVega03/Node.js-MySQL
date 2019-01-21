@@ -18,53 +18,39 @@ Open
 
 - 
 
-- 
+What Each Search Should Do
 
-What Each Command Should Do
+*1. item_id*
 
-1. 
+- This will search the unique id for each product
 
-This will search the :
+*2. product_name*
 
-- 
+- This will search the name of the product
 
-- 
+*3. department_name*
 
-- 
+- This will search the department name
 
-2. 
+*4. price*
 
-This will show the following information about the ID in your terminal/bash window
+- This will search the cost to the customer
 
-- 
+*5. stock_quantity*
 
-- 
-
-- 
-
-- 
-
-
-The :
-
- - Step One:
-
- - Step Two: 
-
- - Step Three: 
-
- - Step Four: 
-
-3. 
+- This will search how much of the product is available in the stores
 
 This will output the following information to your terminal/bash window:
 
-  * Title of the movie.
-  * Year the movie came out.
-  * IMDB Rating of the movie.
+- Example 1 - NIKE
+  * Item ID - 2019-1
+  * Product Name - NIKE
+  * Department Name - Footwear
+  * Price - $100
+  * Stock Quantity - 10
 
-4. 
-
+![schema logo](/1-HOMEWORK/Node_MySQL/Images/Schema_bamazon.png
+Format: ![Alt Text](url)
 
 ## Built With
 - MySQL
