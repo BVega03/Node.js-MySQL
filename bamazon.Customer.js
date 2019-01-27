@@ -25,7 +25,7 @@ function runSearch() {
         .prompt({
             name: "action",
             type: "rawlist",
-            message: "What is the ID of the product you would like to buy? How many Products would you like to buy?",
+            message: "What is the ID of the product you would like to buy? If you don't know the ID, search all items.",
             choices: [
                 "Search items by ID",
                 "Search all items",
@@ -75,7 +75,7 @@ function idSearch() {
             connection.query(query, [answer.id],
                 function (err, res) {
                     for (var i = 0; i < res.length; i++) {
-                        console.log("ID: " + res[i].item_id + " || Product: " + res[i].product_name + " || Department: " + res[i].department_name + " || Price: " + res[i].price + " || stock: " + res[i].stock_quantity);
+                        console.log("ID: " + res[i].item_id + " || Product: " + res[i].product_name + " || Department: " + res[i].department_name + " || Price: $" + res[i].price + " || stock: " + res[i].stock_quantity);
                     }
 
                     runSearch();
@@ -89,7 +89,7 @@ function allSearch() {
     connection.query(query,
         function (err, res) {
             for (var i = 0; i < res.length; i++) {
-                console.log("ID: " + res[i].item_id + " || Product: " + res[i].product_name + " || Department: " + res[i].department_name + " || Price: " + res[i].price + " || stock: " + res[i].stock_quantity);
+                console.log("ID: " + res[i].item_id + " || Product: " + res[i].product_name + " || Department: " + res[i].department_name + " || Price: $" + res[i].price + " || stock: " + res[i].stock_quantity);
             }
 
             runSearch();
