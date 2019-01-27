@@ -53,8 +53,10 @@ This will output the following information to your terminal/bash window:
   * Price - $100
   * Stock Quantity - 10
 
-![Alt text](OneDrive/desktop/1-HOMEWORK/Node_MySQL/Node.js_MySQL/Images/bamazon-js-sql-terminal_response.PNG?raw=true "Node data")
-
+![Node Data](/OneDrive/desktop/1-HOMEWORK/Node_MySQL/Node.js_MySQL/Images/bamazon-js-sql-terminal_response.PNG?raw=true "Node data")
+<div align="center">
+    <img src="/OneDrive/desktop/1-HOMEWORK/Node_MySQL/Node.js_MySQL/Images/bamazon-js-sql-terminal_response.PNG" width="400px"</img> 
+</div>
 
 ## Built With
 - MySQL
