@@ -19,7 +19,7 @@ The app will prompt users with two messages:
 
 **1. "What is the ID of the product you would like to buy?"**
 
-**2. "How many Products would you like to buy?"**
+**2. "If you don't know the item, search all items?"**
 
 
 What Each Search Should Do
@@ -47,13 +47,13 @@ What Each Search Should Do
 This will output the following information to your terminal/bash window:
 
 - Example 1 - NIKE
-  * Item ID - 2019-1
+  * Item ID - 1
   * Product Name - NIKE
   * Department Name - Footwear
   * Price - $100
   * Stock Quantity - 10
 
-![schema logo](/1-HOMEWORK/Node_MySQL/Images/Schema_bamazon.png
+![schema logo](/1-HOMEWORK/Node_MySQL/Node.js_MySQL/Images/bamazon-js-sql-terminal_response.PNG
 Format: ![Alt Text](url)
 
 ## Built With
@@ -63,7 +63,7 @@ Format: ![Alt Text](url)
 - Schema
 
 ## Issues/ Future Features
-- Getting the data to populate to MySQL
+- Getting the data to populate to MySQL. Able to connect to the server
 - Connecting the js. files to the server
 - Will continue to work on the connection and understand the syntax
 
